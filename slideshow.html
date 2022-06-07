@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/slideshow.js"></script>
+    <style>
+        img{
+            border-radius: 5px;
+            box-shadow: 3px 3px rgb(123, 123, 10);
+            width:100px;
+            height:100px
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="slideshow">
+        <img src="images/hinh1.jpg" alt="" id="image" />
+      </div>
+    </div>
+    <hr />
+    <div class="controls">
+      <button class="first" onclick="showFirst()">First</button>
+      <button class="previous" onclick="showPrevious()">Previous</button>
+      <button class="next" onclick="showNext()">Next</button>
+      <button class="last" onclick="showLast()">Last</button>
+    </div>
+  </body>
+</html>
